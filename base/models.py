@@ -40,7 +40,6 @@ class Tecnologias(models.Model):
 
 class TradeOff(models.Model):
     id = models.AutoField(primary_key=True)
-    #um trade-off vai ter uma diretriz#
     desc_ponto_trade_off = models.TextField (blank = False)
     #um doc tem muitos um ou mais tradeoff#
     base = models.ForeignKey(Base)
