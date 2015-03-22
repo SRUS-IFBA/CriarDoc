@@ -5,6 +5,7 @@ class Base(models.Model):
     introducao = models.TextField (blank = False)
     desc_qualidade = models.TextField (blank = False)
     desc_ponto_sensibilidade = models.TextField (blank = False)
+    desc_arquitetura = models.ImageField(upload_to="destino")
 
     def __unicode__(self):
 
