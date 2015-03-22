@@ -6,9 +6,8 @@ class Base(models.Model):
     desc_qualidade = models.TextField (blank = false)
     desc_ponto_sensibilidade = models.TextField (blank = false)
 
-
     def __unicode__(self):
 
 	class Meta:
 
-#teste de filipe
+#teste de abnerrr
