@@ -19,11 +19,8 @@ class Tecnologias(models.Model):
 	def __unicode__(self):
 		return '%s' % self.tecnologia
 
-		class Meta:
-		db_table = 'tecnologia'
-		verbose_name = 'Tecnologias'
-		verbose_name_plural = 'Tecnologias'
-		ordering = ['tecnologia']
-
-
-#teste de filipe
+	class Meta:
+	db_table = 'tecnologia'
+	verbose_name = 'Tecnologias'
+	verbose_name_plural = 'Tecnologias'
+	ordering = ['tecnologia']
