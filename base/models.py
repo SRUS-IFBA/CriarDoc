@@ -2,6 +2,7 @@ from django.db import models
 
 class Base(models.Model):
     id= models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=150,blank = False)
     introducao = models.TextField (blank = False)
     desc_qualidade = models.TextField (blank = False)
     desc_ponto_sensibilidade = models.TextField (blank = False)
