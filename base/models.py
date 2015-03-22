@@ -25,4 +25,4 @@ class Tecnologias(models.Model):
 		ordering = ['tecnologia']
 
 
-#teste de abnerrr
+#teste de filipe
