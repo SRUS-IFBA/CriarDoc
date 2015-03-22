@@ -4,6 +4,7 @@ class Base(models.Model):
     id= models.AutoField(primary_key=True)
     introducao = models.TextField (blank = False)
     desc_qualidade = models.TextField (blank = False)
+    desc_ponto_sensibilidade = models.TextField (blank = False)
 
     def __unicode__(self):
 
