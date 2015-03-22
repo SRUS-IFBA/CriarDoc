@@ -10,6 +10,8 @@ class Base(models.Model):
     desc_riscos = models.TextField (blank = False)
     desc_arquitetura_texto = models.TextField(blank = False)
     desc_arquitetura = models.ImageField(upload_to="destino")
+    desc_pricipais_abordagens_arquitetura = models.TextField (blank = False)
+    desc_pontos_trade_off = models.TextField (blank = False)
 
     def __unicode__(self):
 
