@@ -8,6 +8,7 @@ class Base(models.Model):
     desc_ponto_sensibilidade = models.TextField (blank = False)
     desc_nao_riscos = models.TextField (blank = False)
     desc_riscos = models.TextField (blank = False)
+    desc_arquitetura_texto = models.TextField(blank = False)
     desc_arquitetura = models.ImageField(upload_to="destino")
 
     def __unicode__(self):
