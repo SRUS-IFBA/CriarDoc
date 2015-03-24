@@ -14,6 +14,7 @@ class Base(models.Model):
     desc_pricipais_abordagens_arquitetura = models.TextField(blank = False)
     desc_restricao_sensibilidade = models.TextField (blank = True)
 
+#nara
     def __unicode__(self):
         return '%s' % self.base
 
